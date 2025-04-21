@@ -62,7 +62,7 @@ def run():
             st.markdown("**➡️ Kesimpulan: Perpustakaan tidak perlu ditutup dan sebaliknya, perlu diperkasakan.**")
         else:
             st.warning("Sebahagian besar responden mungkin tidak melihat keperluan perpustakaan.")
-            st.markdown("**➡️ Kesimpulan: Kajian lanjut diperlukan, tetapi tanda-tanda menunjukkan perpustakaan mungkin tidak lagi diperlukan.**")
+            st.markdown("**➡️ Kesimpulan: Berdasarkan analisis, .**")
 
     except FileNotFoundError:
         st.error("❌ Fail CSV 'Desa sempeneh.csv' tidak dijumpai. Sila pastikan ia berada dalam direktori yang betul.")
