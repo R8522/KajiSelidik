@@ -15,11 +15,9 @@ page = st.sidebar.selectbox(
 
 # Routing
 if page == "Desa Sempeneh":
-    import DesaSempeneh
     DesaSempeneh.run()
 
 elif page == "Kuala Dipang":
-    import KualaDipang
     KualaDipang.run()
 
 # Optional footer
