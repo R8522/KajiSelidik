@@ -20,6 +20,4 @@ elif page == "Kuala Dipang":
     import KualaDipang
     KualaDipang.run()
 
-# Optional footer
-st.markdown("---")
-st.caption("Dibangunkan oleh 🧠 Sistem Analitik Komuniti | Projek Latihan Industri")
+
