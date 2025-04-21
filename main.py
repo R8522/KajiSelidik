@@ -1,8 +1,8 @@
 import streamlit as st
 
 # App Title
-st.set_page_config(page_title="Analisis Perpustakaan Komuniti", layout="centered")
-st.title("📚 Sistem Analisis Komuniti Perpustakaan")
+st.set_page_config(page_title="Analisis Perpustakaan Perpustakaan Desa/Komuniti", layout="centered")
+st.title("📚 Sistem Analisis Perpustakaan Desa/Komuniti")
 
 # Sidebar Navigation
 st.sidebar.header("📂 Pilih Lokasi")
