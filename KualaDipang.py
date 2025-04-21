@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import matplotlib.pyplot as plt
 
 def run():
     st.title("Analisis Responden Terhadap Perpustakaan Komuniti")
@@ -34,7 +35,6 @@ def run():
             st.pyplot(fig)
             return count_data
             
-import matplotlib.pyplot as plt
 
         st.subheader("1. Penutupan Perpustakaan")
         penutupan = plot_bar('Penutupan_perpustakaan', 'Respon Terhadap Penutupan Perpustakaan di Komuniti', ['blue', 'mediumseagreen'])
