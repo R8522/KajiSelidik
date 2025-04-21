@@ -58,7 +58,7 @@ def run():
         # Kesimpulan
         st.subheader("📌 Kesimpulan")
         if penutupan.get("Tidak", 0) > penutupan.get("Ya", 0) and perlu_ada.get("Ya", 0) > perlu_ada.get("Tidak", 0):
-            st.success("Berdasarkan data, komuniti lebih cenderung untuk TIDAK menutup perpustakaan dan merasakan ia PERLU ada.")
+            st.success("Berdasarkan data, sebanyak 83.87% responden cenderung untuk menutup perpustakaan desa tersebut.")
             st.markdown("**➡️ Kesimpulan: Perpustakaan tidak perlu ditutup dan sebaliknya, perlu diperkasakan.**")
         else:
             st.warning("Sebahagian besar responden mungkin tidak melihat keperluan perpustakaan.")
