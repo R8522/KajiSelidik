@@ -1,6 +1,4 @@
 import streamlit as st
-import DesaSempeneh
-import KualaDipang
 
 # App Title
 st.set_page_config(page_title="Analisis Perpustakaan Komuniti", layout="centered")
@@ -15,9 +13,11 @@ page = st.sidebar.selectbox(
 
 # Routing
 if page == "Desa Sempeneh":
+    import DesaSempeneh
     DesaSempeneh.run()
 
 elif page == "Kuala Dipang":
+    import KualaDipang
     KualaDipang.run()
 
 # Optional footer
