@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
 
 def run():
     st.title("Analisis Responden Terhadap Perpustakaan Komuniti")
