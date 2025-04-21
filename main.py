@@ -1,4 +1,6 @@
 import streamlit as st
+import pandas as pd
+import matplotlib.pyplot as plt
 
 # App Title
 st.set_page_config(page_title="Analisis Perpustakaan Komuniti", layout="centered")
