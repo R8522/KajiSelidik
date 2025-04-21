@@ -1,4 +1,6 @@
 import streamlit as st
+import DesaSempeneh
+import KualaDipang
 
 # App Title
 st.set_page_config(page_title="Analisis Perpustakaan Komuniti", layout="centered")
