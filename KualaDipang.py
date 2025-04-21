@@ -12,8 +12,8 @@ def run():
 
         # Tunjuk ringkasan
         st.subheader("📌 Ringkasan Data")
-        st.write(data.head())
-
+        st.dataframe(data)
+        
         st.subheader("📊 Info & Statistik")
         st.write("Jumlah nilai kosong:")
         st.write(data.isnull().sum())
