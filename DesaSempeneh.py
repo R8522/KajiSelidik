@@ -22,6 +22,7 @@ def run():
 
         # Buang data kosong
         data.dropna(inplace=True)
+        st.dataframe(data)
 
         # Fungsi plot
         def plot_bar(column, title, colors):
