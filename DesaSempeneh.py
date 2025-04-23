@@ -34,8 +34,6 @@ def run():
             ax.grid(axis='y', linestyle='--', alpha=0.7)
             st.pyplot(fig)
             return count_data
-
-
         
         st.subheader("1. Penutupan Perpustakaan")
         penutupan = plot_bar('Penutupan_perpustakaan', 'Respon Terhadap Penutupan Perpustakaan di Komuniti', ['blue', 'mediumseagreen'])
