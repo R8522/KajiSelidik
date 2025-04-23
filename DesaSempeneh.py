@@ -63,6 +63,3 @@ def run():
         else:
             st.warning("Sebahagian besar responden mungkin tidak melihat keperluan perpustakaan.")
             st.markdown("**➡️ Kesimpulan: Berdasarkan analisis, sebanyak 83.87% responden cenderung untuk menutup perpustakaan desa tersebut.**")
-
-    except FileNotFoundError:
-        st.error("❌ Fail CSV 'Desa sempeneh.csv' tidak dijumpai. Sila pastikan ia berada dalam direktori yang betul.")
