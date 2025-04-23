@@ -35,6 +35,9 @@ def run():
             st.pyplot(fig)
             return count_data
 
+
+        data.groupby('Umur')['Penutupan_perpustakaan'].value_counts()
+        
         st.subheader("1. Penutupan Perpustakaan")
         penutupan = plot_bar('Penutupan_perpustakaan', 'Respon Terhadap Penutupan Perpustakaan di Komuniti', ['blue', 'mediumseagreen'])
         st.write(penutupan)
